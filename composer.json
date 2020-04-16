@@ -1,0 +1,19 @@
+{
+  "name": "kfami/wordpress-installer",
+  "description": "Install fresh untouched version of wordpress via composer",
+  "type": "composer-plugin",
+  "license": "Apache",
+  "authors": [
+    {
+      "name": "Varun Kumar",
+      "email": "sales@kfami.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "scripts": {
+    "post-package-install": [
+      "Downloader::download"
+    ]
+  }
+}
