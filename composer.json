@@ -2,7 +2,7 @@
   "name": "kfami/wordpress-installer",
   "description": "Install fresh untouched version of wordpress via composer",
   "type": "composer-plugin",
-  "license": "Apache",
+  "license": "MIT",
   "authors": [
     {
       "name": "Varun Kumar",
