@@ -9,7 +9,6 @@
       "email": "sales@kfami.com"
     }
   ],
-  "minimum-stability": "stable",
   "require": {},
   "scripts": {
     "post-package-install": [
