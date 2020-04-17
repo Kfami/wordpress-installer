@@ -1,7 +1,7 @@
 {
   "name": "kfami/wordpress-installer",
   "description": "Install fresh untouched version of wordpress via composer",
-  "type": "composer-plugin",
+  "type": "project",
   "license": "MIT",
   "authors": [
     {
@@ -9,6 +9,7 @@
       "email": "sales@kfami.com"
     }
   ],
+  "minimum-stability": "1.0",
   "require": {},
   "scripts": {
     "post-package-install": [
