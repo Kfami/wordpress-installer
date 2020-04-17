@@ -1,4 +1,4 @@
 # wordpress-installer
-Install fresh untouched version of wordpress via composer
+Have you ever feeling threat by installing someone else package? Are you like me always pulling up official resources? Then here is the trick for wordpress. Install fresh untouched version of wordpress via composer.
 
-Just run the command and that's it
+Just clone this repository and run composer update

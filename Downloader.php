@@ -38,7 +38,7 @@ class Downloader
         if (is_dir($dir)) {
             $files = scandir($dir);
             foreach ($files as $file)
-                if ($file != "." && $file != "..") rrmdir("$dir/$file");
+                if ($file != "." && $file != "..") Downloader::rrmdir("$dir/$file");
             rmdir($dir);
         } else if (file_exists($dir)) unlink($dir);
     }
