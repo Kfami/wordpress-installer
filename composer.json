@@ -9,10 +9,15 @@
       "email": "sales@kfami.com"
     }
   ],
+  "autoload": {
+    "classmap": [
+      "Downloader.php"
+    ]
+  },
   "minimum-stability": "stable",
   "require": {},
   "scripts": {
-    "post-package-install": [
+    "post-update-cmd": [
       "Downloader::download"
     ]
   }
