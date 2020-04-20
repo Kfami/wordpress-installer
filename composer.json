@@ -17,7 +17,7 @@
   "minimum-stability": "stable",
   "require": {},
   "scripts": {
-    "post-update-cmd": [
+    "post-create-project-cmd": [
       "Downloader::download"
     ]
   }
